@@ -22,7 +22,7 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: ["Sora", "Inter", "sans-serif"].join(","),
+    fontFamily: ["Blanco"].join(","),
   },
 });
 // <ThemeProvider theme={theme}>
