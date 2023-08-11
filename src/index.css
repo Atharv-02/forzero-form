@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+:root {
+  font-family: "Sora", "Inter", sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.bottom_btnbar {
+  position: fixed;
+  box-shadow: 0px -0.06rem rgba(222, 222, 222, 0.5);
+  background-color: white;
+  z-index: 1;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+.nav_links {
+  display: none;
+}
+.c_links {
+  display: none;
+}
+.c_navtoggle {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .bottom_btnbar {
+    display: flex;
+    justify-content: center;
+  }
+  .c_links {
+    display: block;
+  }
+  .c_navtoggle {
+    display: none;
+  }
+  .bottom_btnbarcont {
+    transform: translateX(-50%);
+  }
+  .nav_links {
+    display: block;
+  }
+}
+.siudfj {
+  font-size: larger;
+}
+.lowsoot-logoimg {
+  max-width: 4.688rem;
+}
+@media screen and (min-width: 768px) {
+  .lowsoot-logoimg {
+    max-width: 4.938rem;
+  }
+}
+.fullimagewidth {
+  width: 100%;
+}
+.elementsidebar {
+  -ms-overflow-style: none;
+  width: fit-content;
+  scrollbar-width: none;
+  overflow-y: scroll;
+  max-width: fit-content;
+  padding: 5rem 0;
+  height: 25rem;
+}
+.elementsidebar::-webkit-scrollbar {
+  display: none;
+}
+.selected-insidebar {
+  opacity: 0.6;
+  cursor: pointer;
+  /* margin-top: 1rem; */
+  /* margin-bottom: 1rem; */
+}
+.selected-insidebar:first-child {
+  margin-top: 2rem;
+}
+.selected-insidebar:last-child {
+  margin-bottom: 2rem;
+}
+
+.selected-insidebarimage {
+  width: 8rem;
+}
+.bg-gray {
+  opacity: 1;
+}
+.elementsidebar__text {
+  text-align: center;
+  font-size: 0.8rem;
+}
+.css-14z3kzp {
+  background-color: #13e2a3 !important;
+}
