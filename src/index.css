@@ -83,7 +83,9 @@
   font-style: italic;
   font-stretch: normal;
 }
-
+* {
+  box-sizing: border-box;
+}
 :root {
   font-family: "Blanco";
 }
