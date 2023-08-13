@@ -1,7 +1,4 @@
 .navbar-full {
-  position: absolute;
-  top: 0;
-  left: 0;
   z-index: 100;
   height: 50px;
   width: 100vw;
@@ -27,6 +24,9 @@
 .nav-items {
   display: flex;
   justify-content: space-evenly;
+}
+.sm-nav-items {
+  padding-left: 0;
 }
 
 .nav-btn {
