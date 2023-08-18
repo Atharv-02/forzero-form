@@ -4,7 +4,12 @@
   width: 100vw;
 
   padding: 8px 18px;
+}
+.nav-br {
   border-bottom: 1px solid rgb(128, 128, 128, 0.8);
+}
+.no-nav-br {
+  border-bottom: none;
 }
 .navbar {
   height: 100%;

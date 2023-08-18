@@ -13,7 +13,10 @@ const Navbar = ({ params }) => {
   const navigate = useNavigate();
 
   return (
-    <div className='navbar-full' id='navbar-full'>
+    <div
+      className={`navbar-full  ${navShow ? "no-nav-br" : "nav-br"}`}
+      id='navbar-full'
+    >
       <nav className={`navbar bl-nav `} id='navbar'>
         <div className='img-nav'>
           <img src={navNewImg} alt='' />
