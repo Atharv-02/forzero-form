@@ -22,7 +22,7 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: ["Blanco"].join(","),
+    fontFamily: "sans-serif",
   },
 });
 // <ThemeProvider theme={theme}>
