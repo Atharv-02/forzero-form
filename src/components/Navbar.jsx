@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import navImage from "../assets/12th Project/Logo Files/PNGs & SVGs/1x/Asset 3.png";
+import React, { useState } from "react";
 import navNewImg from "../assets/12th Project/Logo Files/PNGs & SVGs/1x/Asset 2.png";
 import "../Navbar.css";
 import co2 from "../assets/orange-co2-icon.avif";
@@ -9,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 
 const Navbar = ({ params }) => {
   const [navShow, setNavShow] = useState(false);
-  const [newImg, setNewImg] = useState();
+
   const navigate = useNavigate();
 
   return (
