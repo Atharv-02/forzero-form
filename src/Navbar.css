@@ -22,9 +22,10 @@
 .img-nav {
   height: 100%;
   padding: 0.25rem;
+  margin-left: 1rem;
 }
 .img-nav img {
-  height: 100%;
+  height: 107%;
 }
 .nav-items {
   display: flex;
@@ -187,4 +188,8 @@ li {
   box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.15);
   border: rgb(18, 226, 164);
   cursor: pointer;
+}
+a {
+  text-decoration: none !important;
+  color: black;
 }

@@ -21,11 +21,15 @@ const Navbar = ({ params }) => {
           <img src={navNewImg} alt='' />
         </div>
         <ul className='nav-items'>
-          <li className='item' onClick={() => navigate("/our-projects")}>
-            Our Projects
+          <li className='item'>
+            <a href='https://for-zero-web.vercel.app/our-projects'>
+              Our Projects
+            </a>
           </li>
-          <li className='item' onClick={() => navigate("/our-approach")}>
-            Our Approach
+          <li className='item'>
+            <a href='https://for-zero-web.vercel.app/our-approach'>
+              Our Approach
+            </a>
           </li>
           {/* <li className='item'>Contact Us</li> */}
           <li className='btn-item item'>
