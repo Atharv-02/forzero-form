@@ -270,15 +270,15 @@ export function Countryform() {
           }}
         >
           <img
-            className="fullimagewidth"
-            src="https://projectwren.imgix.net/calculator-icons/cloud_earth.png?auto=format%2Ccompress&q=35"
-            alt="logoimage"
+            className='fullimagewidth'
+            src='https://projectwren.imgix.net/calculator-icons/cloud_earth.png?auto=format%2Ccompress&q=35'
+            alt='logoimage'
           />
         </Box>
         <Questiontext>What do you live?</Questiontext>
       </Box>
-      <Box marginBottom="7rem" display="flex" flexDirection="column" gap="1rem">
-        <InputLabel variant="standard">Country</InputLabel>
+      <Box marginBottom='7rem' display='flex' flexDirection='column' gap='1rem'>
+        <InputLabel variant='standard'>Country</InputLabel>
         <NativeSelect
           sx={{ marginBottom: "2rem" }}
           onChange={handleChange}
@@ -293,7 +293,7 @@ export function Countryform() {
         <TextField
           error={questionstate.cityname.length > 0 ? false : true}
           value={questionstate.cityname}
-          label="city"
+          label='city'
           helperText={
             questionstate.cityname.length > 0 ? "" : "Please enter a city name"
           }

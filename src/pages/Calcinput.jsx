@@ -19,11 +19,11 @@ export function Calcinput() {
         >
           <Sidebar />
           <Box
-            marginTop="5rem"
-            marginBottom="5rem"
-            maxWidth="27.5rem"
-            marginX="auto"
-            paddingX="2rem"
+            marginTop='5rem'
+            marginBottom='5rem'
+            maxWidth='27.5rem'
+            marginX='auto'
+            paddingX='2rem'
           >
             <Currentcomp />
           </Box>
