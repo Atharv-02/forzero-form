@@ -18,7 +18,9 @@ const Navbar = ({ params }) => {
     >
       <nav className={`navbar bl-nav `} id='navbar'>
         <div className='img-nav'>
-          <img src={navNewImg} alt='' />
+          <a href='https://forzero.in/'>
+            <img src={navNewImg} alt='' />
+          </a>
         </div>
         <ul className='nav-items'>
           <li className='item'>
