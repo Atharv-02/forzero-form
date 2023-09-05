@@ -24,25 +24,21 @@ const Navbar = ({ params }) => {
         </div>
         <ul className='nav-items'>
           <li className='item'>
-            <a href='https://for-zero-web.vercel.app/our-projects'>
-              Our Projects
-            </a>
+            <a href='https://forzero.in/our-projects'>Our Projects</a>
           </li>
           <li className='item'>
-            <a href='https://for-zero-web.vercel.app/our-approach'>
-              Our Approach
-            </a>
+            <a href='https://forzero.in/our-approach'>Our Approach</a>
           </li>
           {/* <li className='item'>Contact Us</li> */}
           <li className='btn-item item'>
-            <a href='https://dancing-frangipane-786e1e.netlify.app/'>
+            <a href='https://calculator.forzero.in/'>
               <button className='btn nav-btn'>Get Started</button>
             </a>
           </li>
         </ul>
         <div className='btn-lines'>
           <div className='btn-cont'>
-            <a href='https://dancing-frangipane-786e1e.netlify.app/'>
+            <a href='https://calculator.forzero.in/'>
               <button className='btn nav-btn'>Get Started</button>
             </a>
           </div>
@@ -64,30 +60,28 @@ const Navbar = ({ params }) => {
       {navShow && (
         <nav className={`sm-nav ${navShow ? "wh " : null}`} id='sm-nav'>
           <ul className='sm-nav-items'>
-            <li className='sm-item'>
-              <div className='sm-img' onClick={() => navigate("/our-approach")}>
-                <img src={co2} alt='' />
-              </div>
-              <div
-                className='sm-img-text'
-                onClick={() => navigate("/our-approach")}
-              >
-                Our Approach
-                <p>Understanding the impact of offsets</p>
-              </div>
-            </li>
-            <li className='sm-item'>
-              <div className='sm-img' onClick={() => navigate("/our-projects")}>
-                <img src={forest} alt='' />
-              </div>
-              <div
-                className='sm-img-text'
-                onClick={() => navigate("/our-projects")}
-              >
-                Our Projects
-                <p>See how offset carbon works</p>
-              </div>
-            </li>
+            <a href='https://forzero.in/our-approach'>
+              <li className='sm-item'>
+                <div className='sm-img'>
+                  <img src={co2} alt='' />
+                </div>
+                <div className='sm-img-text'>
+                  Our Approach
+                  <p>Understanding the impact of offsets</p>
+                </div>
+              </li>
+            </a>
+            <a href='https://forzero.in/our-approach'>
+              <li className='sm-item'>
+                <div className='sm-img'>
+                  <img src={forest} alt='' />
+                </div>
+                <div className='sm-img-text'>
+                  Our Projects
+                  <p>See how offset carbon works</p>
+                </div>
+              </li>
+            </a>
 
             {/* <li className='sm-item'>
               <div className='sm-img'>
